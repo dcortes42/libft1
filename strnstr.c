@@ -15,7 +15,7 @@
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	char *htmp;
-    char *ntmp;
+	char *ntmp;
 	
 	htmp = (char *)haystack;
     ntmp = (char *)needle;
