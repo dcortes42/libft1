@@ -52,6 +52,12 @@ char	*ft_strncpy(char *dst, const char *src, size_t len);
 size_t	ft_strlcat(char *dst, const char* src, size_t dstsize);
 char	*ft_strchr(const char *src, int c);
 char	*ft_strrchr(const char *src, int c);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
+void	*ft_memalloc(size_t size);
+void	ft_memdel(void	**ap);
+char	*ft_strnew(size_t size);
+void	ft_strdel(char	**as);
+void	ft_strclr(char	*s);
 //char	*ft_strnstr(const char *big, const char *little, size_t len);
 
 
